@@ -136,6 +136,7 @@ main .first-sect .pattern {
 }
 main .first-sect .video {
   width: 90%;
+  height: 42vw;
   margin: 8vw auto 0;
   grid-column: 2/12;
   grid-row: 2/3;
@@ -654,6 +655,7 @@ main .third-sect {
   }
   main .first-sect .video {
     grid-column: 5/12;
+    height: 320px;
   }
   main .second-sect {
     grid-column-gap: 20px;
