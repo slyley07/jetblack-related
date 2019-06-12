@@ -46,6 +46,7 @@ h4,
 h1,
 h2 {
   font-family: 'Quarto A';
+  font-weight: 700;
 }
 
 a {
@@ -82,7 +83,14 @@ header,
 }
 
 header {
-  margin: 6vw 0 4vw;
+  margin: 0 auto;
+  padding: 6vw 0 4vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  background-color: #FFF;
 
   .logo {
     grid-column: 2 / 8;
@@ -95,6 +103,8 @@ header {
 }
 
 main {
+  margin: 20vw 0 0;
+
   .first-sect,
   .second-sect,
   .third-sect {
@@ -594,6 +604,8 @@ footer {
   }
 
   main {
+    margin: 15vw 0 0;
+
     .first-sect {
       grid-column-gap: 2vw;
 
@@ -761,7 +773,7 @@ footer {
   }
 
   header {
-    margin: 30px auto;
+    padding: 30px 0;
 
     .logo {
       grid-column: 1 / 5;
@@ -774,7 +786,7 @@ footer {
   }
 
   main {
-    margin: 30px auto;
+    margin: 100px auto;
 
     .first-sect,
     .second-sect,

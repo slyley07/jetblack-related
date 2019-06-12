@@ -46,6 +46,7 @@ h4,
 h1,
 h2 {
   font-family: "Quarto A";
+  font-weight: 700;
 }
 
 a {
@@ -82,7 +83,14 @@ header,
 }
 
 header {
-  margin: 6vw 0 4vw;
+  margin: 0 auto;
+  padding: 6vw 0 4vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  background-color: #FFF;
 }
 header .logo {
   grid-column: 2/8;
@@ -92,6 +100,9 @@ header .join {
   grid-column: 11/12;
 }
 
+main {
+  margin: 20vw 0 0;
+}
 main .first-sect,
 main .second-sect,
 main .third-sect {
@@ -481,6 +492,9 @@ main .third-sect .imgs .block:nth-child(2n+2) .block-p {
     font-size: 2vw;
   }
 
+  main {
+    margin: 15vw 0 0;
+  }
   main .first-sect {
     grid-column-gap: 2vw;
   }
@@ -611,7 +625,7 @@ main {
   }
 
   header {
-    margin: 30px auto;
+    padding: 30px 0;
   }
   header .logo {
     grid-column: 1/5;
@@ -622,7 +636,7 @@ main {
   }
 
   main {
-    margin: 30px auto;
+    margin: 100px auto;
   }
   main .first-sect,
 main .second-sect,
