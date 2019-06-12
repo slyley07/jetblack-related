@@ -1,28 +1,28 @@
 let parts = [
   {
     'name': 'Essentials',
-    'heading': 'Your life essentials&mdash;<br />one text away.',
+    'heading': 'Your life essentials<span class="unbold">&mdash;</span><br />one text away.',
     'text': 'After your cataloging appointment, we&rsquo;ll know all your go-to essentials to make shopping a snap. No more lists or running out last-minute. Simply text us when you&rsquo;re running low and we&rsquo;ll take it from there.',
   },
   {
     'name': 'Returns',
-    'heading': 'Returns items&mdash;<br />exactly when you need to.',
+    'heading': 'Returns items<span class="unbold">&mdash;</span><br />exactly when you need to.',
     'text': 'Jetblack offers fast and free courier delivery (or shipping to a destination!) so you minimize your carbon footprint. Did something not work out? Simply text us and we&rsquo;ll pick it up&mdash;for free.',
   },
   {
     'name': 'TakeaPic',
-    'heading': 'Take and send us a pick&mdash;<br />we&rsquo;ll find it.',
+    'heading': 'Take and send us a pic<span class="unbold">&mdash;</span><br />we&rsquo;ll find it.',
     'text': 'Whether it&rsquo;s a shirt you saw at your favorite department store or a new cooking set for sale online, don&rsquo;t worry about spending time going through a lengthy checkout process. Simply text us your screenshot and we&rsquo;ll find it.',
   },
   {
     'name': 'TrustUs',
-    'heading': 'Trust us&mdash;<br />our members know best.',
+    'heading': 'Trust us<span class="unbold">&mdash;</span><br />our members know best.',
     'text': 'Jetblack&rsquo;s picks are powered by our members&mdash;busy New Yorkers, just like you, who know their stuff inside and out. All of our picks are curated with people like you in mind.',
   },
   {
     'name': 'PartiesGifts',
-    'heading': 'Parties and gifts&mdash;<br />made seriously simple.',
-    'text': 'Our gifting specialists have found the best presents for every age, gender, and interest. Each one comes gift wrapped and can be delivered to you or the guest of honor. Hosting a party? J has you covered with party themes to choose from, complete with pre-assembled good bags.',
+    'heading': 'Parties and gifts<span class="unbold">&mdash;</span><br />made seriously simple.',
+    'text': 'Our gifting specialists have found the best presents for every age, gender, and interest. Each one comes gift wrapped and can be delivered to you or the guest of honor. Hosting a party? J has you covered with party themes to choose from, complete with pre-assembled goodie bags.',
   }
 ];
 
