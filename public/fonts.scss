@@ -1,0 +1,32 @@
+@font-face {
+ font-family: 'Mark Pro';
+ // src: url('./fonts/MarkProBold/MarkProBold.eot?#iefix');
+ src: url('./fonts/MarkProBold/MarkProBold.eot?#iefix') format('eot'),
+   url('./fonts/MarkProBold/MarkProBold.woff2') format('woff2'),
+   url('./fonts/MarkProBold/MarkProBold.woff') format('woff'),
+   url('./fonts/MarkProBold/MarkProBold.ttf') format('truetype');
+ font-weight: 700;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: 'Mark Pro';
+ // src: url('./fonts/MarkPro/MarkPro.eot?#iefix');
+ src: url('./fonts/MarkPro/MarkPro.eot?#iefix') format('eot'),
+   url('./fonts/MarkPro/MarkPro.woff2') format('woff2'),
+   url('./fonts/MarkPro/MarkPro.woff') format('woff'),
+   url('./fonts/MarkPro/MarkPro.ttf') format('truetype');
+ font-weight: 400;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: 'Trade Gothic';
+ // src: url('./fonts/TradeGothic/TradeGothic.eot?#iefix');
+ src: url('./fonts/TradeGothic/TradeGothic.eot?#iefix') format('eot'),
+   url('./fonts/TradeGothic/TradeGothic.woff2') format('woff2'),
+   url('./fonts/TradeGothic/TradeGothic.woff') format('woff'),
+   url('./fonts/TradeGothic/TradeGothic.ttf') format('truetype');
+ font-weight: 700;
+ font-style: normal;
+}
