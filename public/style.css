@@ -141,7 +141,7 @@ main .first-sect .black-back h1 {
 }
 main .first-sect .black-back h3 {
   letter-spacing: 0.04em;
-  width: 53vw;
+  width: 100%;
   margin: 0 auto;
 }
 main .first-sect .pattern {
@@ -178,7 +178,7 @@ main .second-sect h2 {
 main .second-sect h4 {
   letter-spacing: 0.04em;
   font-size: 4vw;
-  width: 44vw;
+  width: 46vw;
   margin: 0 auto 4vw;
   padding: 0 0 3vw;
   grid-row: 2/3;
@@ -238,6 +238,7 @@ main .third-sect .carousel .carousel-icon {
   grid-column: 2/4;
 }
 main .third-sect .carousel .carousel-heading {
+  font-size: 6vw;
   grid-row: 1/2;
   grid-column: 4/12;
 }
