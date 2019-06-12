@@ -140,8 +140,8 @@ main .first-sect .black-back h1 {
   border-bottom: 1px solid #FFFFFF;
 }
 main .first-sect .black-back h3 {
-  letter-spacing: 0.02em;
-  width: 55vw;
+  letter-spacing: 0.04em;
+  width: 53vw;
   margin: 0 auto;
 }
 main .first-sect .pattern {
@@ -176,7 +176,7 @@ main .second-sect h2 {
   margin: 6vw auto 4vw;
 }
 main .second-sect h4 {
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
   font-size: 4vw;
   width: 44vw;
   margin: 0 auto 4vw;
