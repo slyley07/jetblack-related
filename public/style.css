@@ -261,7 +261,7 @@ main .third-sect .carousel .carousel-dots {
 }
 main .third-sect .carousel .carousel-dots .dot {
   width: 50%;
-  padding: 0 2.5vw;
+  padding: 2vw 2.5vw;
 }
 main .third-sect hr {
   grid-row: 2/3;
