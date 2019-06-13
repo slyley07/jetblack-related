@@ -224,12 +224,10 @@ main .third-sect .carousel {
 }
 main .third-sect .carousel .left-arrow,
 main .third-sect .carousel .right-arrow {
+  width: 60%;
+  padding: 5vw 0;
+  margin: 0 auto;
   grid-row: 2/3;
-}
-main .third-sect .carousel .left-arrow,
-main .third-sect .carousel .right-arrow,
-main .third-sect .carousel .carousel-icon {
-  width: 100%;
 }
 main .third-sect .carousel .left-arrow {
   grid-column: 2/3;
@@ -262,7 +260,8 @@ main .third-sect .carousel .carousel-dots {
   justify-items: center;
 }
 main .third-sect .carousel .carousel-dots .dot {
-  width: 100%;
+  width: 50%;
+  padding: 0 2.5vw;
 }
 main .third-sect hr {
   grid-row: 2/3;
@@ -409,7 +408,7 @@ main .second-sect h4 {
   }
   main .third-sect .imgs .block .block-img {
     width: 100%;
-    grid-row: 1/6;
+    grid-row: 1/5;
   }
   main .third-sect .imgs .block:nth-child(2n+1) .block-h,
 main .third-sect .imgs .block:nth-child(2n+1) .block-p {
@@ -731,6 +730,7 @@ main .third-sect {
   }
   main .third-sect .imgs .block .block-p {
     font-size: 15px;
+    margin-bottom: 2vw;
   }
   main .third-sect .imgs .block:last-child {
     margin: 30px 0 50px;
