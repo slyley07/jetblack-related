@@ -215,9 +215,12 @@ main .third-sect {
   grid-row: 3/4;
 }
 main .third-sect .carousel {
-  align-items: center;
+  margin: 0 0 2vw;
   grid-row: 1/2;
   grid-column: 1/13;
+  grid-template-rows: auto 28vw auto;
+  grid-row-gap: 3vw;
+  align-items: center;
 }
 main .third-sect .carousel .left-arrow,
 main .third-sect .carousel .right-arrow {
@@ -225,8 +228,7 @@ main .third-sect .carousel .right-arrow {
 }
 main .third-sect .carousel .left-arrow,
 main .third-sect .carousel .right-arrow,
-main .third-sect .carousel .carousel-icon,
-main .third-sect .carousel .carousel-img {
+main .third-sect .carousel .carousel-icon {
   width: 100%;
 }
 main .third-sect .carousel .left-arrow {
@@ -243,7 +245,8 @@ main .third-sect .carousel .carousel-heading {
   grid-column: 4/12;
 }
 main .third-sect .carousel .carousel-img {
-  margin: 6vw 0 0;
+  width: 90%;
+  margin: 0 auto;
   grid-row: 2/3;
   grid-column: 3/11;
 }
@@ -575,7 +578,7 @@ main .third-sect .imgs .block:nth-child(2n+2) .block-p {
     margin: 1vw 0;
   }
   main .third-sect .imgs .block .block-p {
-    font-size: 2vw;
+    font-size: 1.5vw;
   }
   main .third-sect .carousel-hr {
     margin: 3vw auto;
@@ -602,15 +605,15 @@ main .third-sect .imgs .block:nth-child(2n+2) .block-p {
     grid-column: 3/7;
   }
   footer .menu p {
-    font-size: 1.8vw;
+    font-size: 1.5vw;
   }
   footer .address p {
-    margin: 0 0 3vw;
-    font-size: 1.8vw;
+    margin: 0 0 1.5vw;
+    font-size: 1.5vw;
   }
   footer .copy .footer-insta {
     margin: 0 0 7vw;
-    font-size: 1.8vw;
+    font-size: 1.5vw;
   }
   footer .copy .footer-insta .insta {
     width: 2.5vw;
@@ -662,10 +665,10 @@ main .third-sect {
     width: 140px;
   }
   main .first-sect .black-back h3 {
-    font-size: 17px;
+    font-size: 15px;
   }
   main .first-sect .black-back .button {
-    font-size: 17px;
+    font-size: 15px;
     padding: 10px 40px;
     margin: 20px 0 0;
   }
@@ -706,7 +709,7 @@ main .third-sect {
     height: 25px;
   }
   main .second-sect .fake-ul .fake-li {
-    font-size: 17px;
+    font-size: 15px;
   }
   main .second-sect .small {
     font-size: 11px;
