@@ -235,10 +235,6 @@ main {
     .small {
       grid-column: 3 / 12;
       margin: 3vw auto 0;
-
-      &:nth-child(2n + 1) {
-        margin: 3vw auto 7vw;
-      }
     }
 
     .diana {
@@ -381,6 +377,14 @@ footer {
   main {
     .first-sect {
       background-image: url('./imgs/_Pattern.png');
+    }
+
+    .second-sect {
+      .small {
+        &:nth-child(2n + 1) {
+          margin: 3vw auto 7vw;
+        }
+      }
     }
   }
 }

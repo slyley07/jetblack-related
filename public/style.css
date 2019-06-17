@@ -226,9 +226,6 @@ main .second-sect .small {
   grid-column: 3/12;
   margin: 3vw auto 0;
 }
-main .second-sect .small:nth-child(2n+1) {
-  margin: 3vw auto 7vw;
-}
 main .second-sect .diana {
   width: 100%;
 }
@@ -343,6 +340,9 @@ footer .address p {
 @media screen and (max-width: 640px) {
   main .first-sect {
     background-image: url("./imgs/_Pattern.png");
+  }
+  main .second-sect .small:nth-child(2n+1) {
+    margin: 3vw auto 7vw;
   }
 }
 @media screen and (min-width: 641px) {
