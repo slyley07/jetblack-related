@@ -42,7 +42,6 @@ h4,
   font-family: 'Trade Gothic';
 }
 
-h1,
 h2 {
   font-family: 'Quarto A';
   font-weight: 700;
@@ -66,6 +65,11 @@ a {
 
 .unbold {
   font-weight: 100;
+}
+
+.small {
+  font-size: 3vw;
+  line-height: 1;
 }
 
 header,
@@ -101,7 +105,7 @@ header {
   }
 
   .join {
-    grid-column: 11 / 12;
+    grid-column: 10 / 12;
   }
 }
 
@@ -137,7 +141,9 @@ main {
 
 
       h1 {
+        font-family: 'Quarto';
         font-size: 7vw;
+        font-weight: 900;
         width: 66vw;
         margin: 0 auto 3vw;
         padding: 0 0 3vw;
@@ -165,10 +171,15 @@ main {
       margin: 8vw auto 0;
       grid-column: 2 / 12;
       grid-row: 2 / 3;
+
+      iframe {
+        width: 100%;
+        height: 100%;
+      }
     }
 
     .button {
-      grid-column: 5 / 9;
+      grid-column: 4 / 10;
       grid-row: 3 / 4;
     }
   }
@@ -222,18 +233,16 @@ main {
 
     .small {
       grid-column: 3 / 12;
-      grid-row: 4 / 5;
-      // width: 80vw;
-      margin: 3vw auto 7vw;
-      font-size: 3vw;
-      line-height: 1;
+      margin: 3vw auto 0;
+
+      &:nth-child(2n + 1) {
+        margin: 3vw auto 7vw;
+      }
     }
 
     .diana {
       width: 100%;
-      // width: 90vw;
-      grid-row: 5 / 6;
-      // margin: 0 auto;
+      // grid-row: 5 / 6;
     }
   }
 
@@ -307,7 +316,12 @@ main {
     .button {
       margin: 5vw auto 8vw;
       grid-row: 3 / 4;
-      grid-column: 5 / 9;
+      grid-column: 4 / 10;
+    }
+
+    .small {
+      grid-column: 3 / 11;
+      grid-row: 6 / 7;
     }
   }
 }
@@ -412,6 +426,11 @@ footer {
         margin: 0;
         width: 100%;
         grid-row: 2 / 3;
+
+        .inner-video {
+          width: 100%;
+          height: 100%;
+        }
       }
     }
 
@@ -594,14 +613,19 @@ footer {
     padding: 3vw;
   }
 
+  .small {
+    font-size: 1vw;
+  }
+
   header {
     .logo {
-      grid-column: 3 / 7;
+      grid-column: 2 / 6;
     }
 
     .join {
-      grid-column: 11 / 12;
       font-size: 2vw;
+      grid-column: 10 / 12;
+      justify-self: end;
     }
   }
 
@@ -623,7 +647,7 @@ footer {
         }
 
         h3 {
-          font-size: 1.4vw;
+          font-size: 1.1vw;
         }
 
         .button {
@@ -682,8 +706,11 @@ footer {
       }
 
       .small {
-        font-size: 1vw;
         margin: 2vw 0 0 3vw;
+
+        &:nth-child(2n + 1) {
+          margin: 0 0 0 3vw;
+        }
       }
     }
 
@@ -696,12 +723,13 @@ footer {
           grid-column-gap: 2vw;
 
           .block-h {
-            font-size: 3.5vw;
+            font-size: 3vw;
             margin: 1vw 0;
           }
 
           .block-p {
             font-size: $mp-fs;
+            margin: 0 0 2vw;
           }
         }
       }
@@ -720,6 +748,12 @@ footer {
         margin: 0;
         padding: 1vw 2vw;
         font-size: 2vw;
+      }
+
+      .small {
+        margin: 2vw 0;
+        grid-column: 4 / 10;
+        grid-row: 6 / 7;
       }
     }
   }
@@ -770,6 +804,12 @@ footer {
 @media screen and (min-width: 980px) {
   .button {
     padding: 20px 30px;
+    font-size: 19px;
+  }
+
+  .small {
+    font-size: 11px;
+    margin: 15px 0 0 35px;
   }
 
   header,
@@ -818,7 +858,6 @@ footer {
         }
 
         .button {
-          font-size: $dp-fs;
           padding: 10px 40px;
           margin: 20px 0 0;
         }
@@ -899,6 +938,7 @@ footer {
           .block-p {
             font-size: 15px;
             margin-bottom: 2vw;
+            font-weight: 200;
           }
 
           &:last-child {
@@ -918,9 +958,15 @@ footer {
       }
 
       .button {
-        margin: 0 20px;
+        margin: 0;
         padding: 10px 20px;
         font-size: 19px;
+      }
+
+      .small {
+        grid-row: 6 / 7;
+        grid-column: 4 / 10;
+        margin: 30px 0;
       }
     }
   }

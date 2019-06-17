@@ -21,6 +21,14 @@
 }
 
 @font-face {
+ font-family: 'Mark Pro';
+ // src: url('./fonts/MarkPro/MarkPro.eot?#iefix');
+ src: url('./fonts/MarkPro/MarkPro-Light.otf') format('opentype');
+ font-weight: 200;
+ font-style: normal;
+}
+
+@font-face {
  font-family: 'Trade Gothic';
  // src: url('./fonts/TradeGothic/TradeGothic.eot?#iefix');
  src: url('./fonts/TradeGothic/TradeGothic.eot?#iefix') format('eot'),
@@ -28,5 +36,13 @@
    url('./fonts/TradeGothic/TradeGothic.woff') format('woff'),
    url('./fonts/TradeGothic/TradeGothic.ttf') format('truetype');
  font-weight: 700;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: 'Quarto';
+ // src: url('./fonts/TradeGothic/TradeGothic.eot?#iefix');
+ src: url('./fonts/Quarto/Quarto-Black.otf') format('opentype');
+ font-weight: 900;
  font-style: normal;
 }

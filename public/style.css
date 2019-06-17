@@ -11,9 +11,21 @@
   font-style: normal;
 }
 @font-face {
+  font-family: "Mark Pro";
+  src: url("./fonts/MarkPro/MarkPro-Light.otf") format("opentype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
   font-family: "Trade Gothic";
   src: url("./fonts/TradeGothic/TradeGothic.eot?#iefix") format("eot"), url("./fonts/TradeGothic/TradeGothic.woff2") format("woff2"), url("./fonts/TradeGothic/TradeGothic.woff") format("woff"), url("./fonts/TradeGothic/TradeGothic.ttf") format("truetype");
   font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Quarto";
+  src: url("./fonts/Quarto/Quarto-Black.otf") format("opentype");
+  font-weight: 900;
   font-style: normal;
 }
 html,
@@ -43,7 +55,6 @@ h4,
   font-family: "Trade Gothic";
 }
 
-h1,
 h2 {
   font-family: "Quarto A";
   font-weight: 700;
@@ -67,6 +78,11 @@ a {
 
 .unbold {
   font-weight: 100;
+}
+
+.small {
+  font-size: 3vw;
+  line-height: 1;
 }
 
 header,
@@ -101,7 +117,7 @@ header .logo {
   width: 100%;
 }
 header .join {
-  grid-column: 11/12;
+  grid-column: 10/12;
 }
 
 main {
@@ -133,7 +149,9 @@ main .first-sect .black-back {
   grid-column: 2/12;
 }
 main .first-sect .black-back h1 {
+  font-family: "Quarto";
   font-size: 7vw;
+  font-weight: 900;
   width: 66vw;
   margin: 0 auto 3vw;
   padding: 0 0 3vw;
@@ -157,8 +175,12 @@ main .first-sect .video {
   grid-column: 2/12;
   grid-row: 2/3;
 }
+main .first-sect .video iframe {
+  width: 100%;
+  height: 100%;
+}
 main .first-sect .button {
-  grid-column: 5/9;
+  grid-column: 4/10;
   grid-row: 3/4;
 }
 main .second-sect h2,
@@ -202,14 +224,13 @@ main .second-sect .fake-ul .fake-li {
 }
 main .second-sect .small {
   grid-column: 3/12;
-  grid-row: 4/5;
+  margin: 3vw auto 0;
+}
+main .second-sect .small:nth-child(2n+1) {
   margin: 3vw auto 7vw;
-  font-size: 3vw;
-  line-height: 1;
 }
 main .second-sect .diana {
   width: 100%;
-  grid-row: 5/6;
 }
 main .third-sect {
   grid-row: 3/4;
@@ -240,7 +261,7 @@ main .third-sect .carousel .carousel-icon {
 main .third-sect .carousel .carousel-heading {
   font-size: 6vw;
   grid-row: 1/2;
-  grid-column: 4/13;
+  grid-column: 4/12;
 }
 main .third-sect .carousel .carousel-img {
   width: 90%;
@@ -261,7 +282,7 @@ main .third-sect .carousel .carousel-dots {
 }
 main .third-sect .carousel .carousel-dots .dot {
   width: 50%;
-  padding: 2vw 2.5vw;
+  padding: 0 2.5vw;
 }
 main .third-sect hr {
   grid-row: 2/3;
@@ -271,7 +292,11 @@ main .third-sect hr {
 main .third-sect .button {
   margin: 5vw auto 8vw;
   grid-row: 3/4;
-  grid-column: 5/9;
+  grid-column: 4/10;
+}
+main .third-sect .small {
+  grid-column: 3/11;
+  grid-row: 6/7;
 }
 
 footer {
@@ -356,6 +381,10 @@ footer .address p {
     margin: 0;
     width: 100%;
     grid-row: 2/3;
+  }
+  main .first-sect .video .inner-video {
+    width: 100%;
+    height: 100%;
   }
   main .second-sect .bordered {
     border: 0;
@@ -491,12 +520,17 @@ main .third-sect .imgs .block:nth-child(2n+2) .block-p {
     padding: 3vw;
   }
 
+  .small {
+    font-size: 1vw;
+  }
+
   header .logo {
-    grid-column: 3/7;
+    grid-column: 2/6;
   }
   header .join {
-    grid-column: 11/12;
     font-size: 2vw;
+    grid-column: 10/12;
+    justify-self: end;
   }
 
   main {
@@ -516,7 +550,7 @@ main .third-sect .imgs .block:nth-child(2n+2) .block-p {
     width: 10vw;
   }
   main .first-sect .black-back h3 {
-    font-size: 1.4vw;
+    font-size: 1.1vw;
   }
   main .first-sect .black-back .button {
     font-size: 1.5vw;
@@ -562,8 +596,10 @@ main .third-sect .imgs .block:nth-child(2n+2) .block-p {
     font-size: 1.5vw;
   }
   main .second-sect .small {
-    font-size: 1vw;
     margin: 2vw 0 0 3vw;
+  }
+  main .second-sect .small:nth-child(2n+1) {
+    margin: 0 0 0 3vw;
   }
   main .third-sect .imgs {
     grid-column: 2/12;
@@ -573,11 +609,12 @@ main .third-sect .imgs .block:nth-child(2n+2) .block-p {
     grid-column-gap: 2vw;
   }
   main .third-sect .imgs .block .block-h {
-    font-size: 3.5vw;
+    font-size: 3vw;
     margin: 1vw 0;
   }
   main .third-sect .imgs .block .block-p {
     font-size: 1.5vw;
+    margin: 0 0 2vw;
   }
   main .third-sect .carousel-hr {
     margin: 3vw auto;
@@ -591,6 +628,11 @@ main .third-sect .imgs .block:nth-child(2n+2) .block-p {
     margin: 0;
     padding: 1vw 2vw;
     font-size: 2vw;
+  }
+  main .third-sect .small {
+    margin: 2vw 0;
+    grid-column: 4/10;
+    grid-row: 6/7;
   }
 
   footer {
@@ -624,6 +666,12 @@ main .third-sect .imgs .block:nth-child(2n+2) .block-p {
 @media screen and (min-width: 980px) {
   .button {
     padding: 20px 30px;
+    font-size: 19px;
+  }
+
+  .small {
+    font-size: 11px;
+    margin: 15px 0 0 35px;
   }
 
   header,
@@ -667,7 +715,6 @@ main .third-sect {
     font-size: 15px;
   }
   main .first-sect .black-back .button {
-    font-size: 15px;
     padding: 10px 40px;
     margin: 20px 0 0;
   }
@@ -731,6 +778,7 @@ main .third-sect {
   main .third-sect .imgs .block .block-p {
     font-size: 15px;
     margin-bottom: 2vw;
+    font-weight: 200;
   }
   main .third-sect .imgs .block:last-child {
     margin: 30px 0 50px;
@@ -744,9 +792,14 @@ main .third-sect {
     margin: 30px 0;
   }
   main .third-sect .button {
-    margin: 0 20px;
+    margin: 0;
     padding: 10px 20px;
     font-size: 19px;
+  }
+  main .third-sect .small {
+    grid-row: 6/7;
+    grid-column: 4/10;
+    margin: 30px 0;
   }
 
   footer {
