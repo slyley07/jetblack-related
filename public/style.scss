@@ -42,9 +42,11 @@ h4,
   font-family: 'Trade Gothic';
 }
 
+
+h1,
 h2 {
-  font-family: 'Quarto A';
-  font-weight: 700;
+  font-family: 'Quarto';
+  font-weight: 900;
 }
 
 a {
@@ -142,9 +144,7 @@ main {
 
 
       h1 {
-        font-family: 'Quarto';
         font-size: 7vw;
-        font-weight: 900;
         width: 66vw;
         margin: 0 auto 3vw;
         padding: 0 0 3vw;
