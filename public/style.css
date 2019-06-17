@@ -82,11 +82,21 @@ a {
 }
 
 .small {
-  font-size: 3vw;
+  font-size: 2vw;
   line-height: 1;
 }
 
-header,
+header {
+  width: 100vw;
+  background-color: #FFFFFF;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.header,
 .first-sect,
 .second-sect,
 .third-sect,
@@ -103,21 +113,16 @@ header,
   display: none;
 }
 
-header {
+.header {
   margin: 0 auto;
   padding: 6vw 0 4vw;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 2;
   background-color: #FFF;
 }
-header .logo {
+.header .logo {
   grid-column: 2/8;
   width: 100%;
 }
-header .join {
+.header .join {
   grid-column: 9/12;
   justify-self: end;
 }
@@ -224,7 +229,7 @@ main .second-sect .fake-ul .fake-li {
 }
 main .second-sect .small {
   grid-column: 3/12;
-  margin: 3vw auto 0;
+  margin: 3vw auto;
 }
 main .second-sect .diana {
   width: 100%;
@@ -293,7 +298,10 @@ main .third-sect .button {
 }
 main .third-sect .small {
   grid-column: 3/11;
-  grid-row: 6/7;
+  margin: 3vw 0 0;
+}
+main .third-sect .small:nth-child(2n+1) {
+  margin: 2vw 0;
 }
 
 footer {
@@ -340,9 +348,6 @@ footer .address p {
 @media screen and (max-width: 640px) {
   main .first-sect {
     background-image: url("./imgs/_Pattern.png");
-  }
-  main .second-sect .small:nth-child(2n+1) {
-    margin: 3vw auto 7vw;
   }
 }
 @media screen and (min-width: 641px) {
@@ -524,10 +529,10 @@ main .third-sect .imgs .block:nth-child(2n+2) .block-p {
     font-size: 1vw;
   }
 
-  header .logo {
+  .header .logo {
     grid-column: 2/6;
   }
-  header .join {
+  .header .join {
     font-size: 2vw;
     grid-column: 10/12;
     justify-self: end;
@@ -630,9 +635,11 @@ main .third-sect .imgs .block:nth-child(2n+2) .block-p {
     font-size: 2vw;
   }
   main .third-sect .small {
-    margin: 2vw 0;
+    margin: 3vw 0 0;
     grid-column: 4/10;
-    grid-row: 6/7;
+  }
+  main .third-sect .small:nth-child(2n+1) {
+    margin: 2vw 0;
   }
 
   footer {
@@ -674,18 +681,18 @@ main .third-sect .imgs .block:nth-child(2n+2) .block-p {
     margin: 15px 0 0 35px;
   }
 
-  header,
+  .header,
 main {
     width: 980px;
   }
 
-  header {
+  .header {
     padding: 30px 0;
   }
-  header .logo {
+  .header .logo {
     grid-column: 1/5;
   }
-  header .join {
+  .header .join {
     grid-column: 10/13;
     font-size: 24px;
   }
@@ -797,9 +804,11 @@ main .third-sect {
     font-size: 19px;
   }
   main .third-sect .small {
-    grid-row: 6/7;
     grid-column: 4/10;
-    margin: 30px 0;
+    margin: 30px 0 0;
+  }
+  main .third-sect .small:nth-child(2n+1) {
+    margin: 15px 0;
   }
 
   footer {
