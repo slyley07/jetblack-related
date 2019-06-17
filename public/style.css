@@ -299,6 +299,7 @@ main .third-sect .button {
 main .third-sect .small {
   grid-column: 3/11;
   margin: 3vw 0 0;
+  text-align: center;
 }
 main .third-sect .small:nth-child(2n+1) {
   margin: 2vw 0;
