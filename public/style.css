@@ -117,7 +117,8 @@ header .logo {
   width: 100%;
 }
 header .join {
-  grid-column: 10/12;
+  grid-column: 9/12;
+  justify-self: end;
 }
 
 main {
@@ -686,7 +687,7 @@ main {
     grid-column: 1/5;
   }
   header .join {
-    grid-column: 12/13;
+    grid-column: 10/13;
     font-size: 24px;
   }
 
