@@ -698,7 +698,7 @@ main {
   }
   .header .join {
     grid-column: 10/13;
-    font-size: 24px;
+    font-size: 20px;
   }
 
   main {
