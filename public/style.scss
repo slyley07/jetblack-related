@@ -15,44 +15,55 @@ $mh-fs: 3vw;
   border-bottom: 1px solid $color;
 }
 
-html,
-body {
+.jb-related {
   font-family: 'Mark Pro';
   font-weight: 400;
-}
-
-html,
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
   margin: 0;
   padding: 0;
-}
 
-h2,
-h3,
-h4,
-.join,
-.button {
-  font-family: 'Trade Gothic';
-}
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+    padding: 0;
+  }
 
+  h2,
+  h3,
+  h4,
+  .join,
+  .button {
+    font-family: 'Trade Gothic';
+  }
 
-h1,
-h2 {
-  font-family: 'Quarto';
-  font-weight: 900;
-  letter-spacing: 0.02em;
-}
+  h1,
+  h2 {
+    font-family: 'Quarto';
+    font-weight: 900;
+    letter-spacing: 0.02em;
+  }
 
-a {
-  text-decoration: none;
-  color: #000000;
+  a {
+    text-decoration: none;
+  }
+
+  header {
+    width: 100vw;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+
+    a {
+      color: #000000;
+    }
+  }
 }
 
 .button {
@@ -73,16 +84,6 @@ a {
 .small {
   font-size: 2vw;
   line-height: 1;
-}
-
-header {
-  width: 100vw;
-  background-color: #FFFFFF;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 2;
 }
 
 .header,
@@ -120,7 +121,7 @@ header {
   }
 }
 
-main {
+.jb-main {
   margin: 20vw 0 0;
 
   .first-sect,
@@ -340,7 +341,7 @@ main {
   }
 }
 
-footer {
+.jb-footer {
   background-color: #000000;
   padding: 5vw;
 
@@ -391,7 +392,7 @@ footer {
 }
 
 @media screen and (max-width: 640px) {
-  main {
+  .jb-main {
     .first-sect {
       background-image: url('./imgs/_Pattern.png');
     }
@@ -419,7 +420,7 @@ footer {
     }
   }
 
-  main {
+  .jb-main {
     .first-sect {
       align-items: center;
 
@@ -578,7 +579,7 @@ footer {
     }
   }
 
-  footer {
+  .jb-footer {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
 
@@ -653,7 +654,7 @@ footer {
     }
   }
 
-  main {
+  .jb-main {
     margin: 15vw 0 0;
 
     .first-sect {
@@ -793,7 +794,7 @@ footer {
     }
   }
 
-  footer {
+  .jb-footer {
     grid-column-gap: 2vw;
     padding: 3vw;
 
@@ -848,7 +849,7 @@ footer {
   }
 
   .header,
-  main {
+  .jb-main {
     width: 980px;
   }
 
@@ -865,7 +866,7 @@ footer {
     }
   }
 
-  main {
+  .jb-main {
     margin: 100px auto;
 
     .first-sect,
@@ -1016,7 +1017,7 @@ footer {
     }
   }
 
-  footer {
+  .jb-footer {
     padding: 50px 90px;
     margin: 80px auto 0;
     grid-column-gap: 20px;
