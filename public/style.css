@@ -217,7 +217,7 @@ main .second-sect h4 {
 main .second-sect .fake-ul {
   display: grid;
   grid-template-columns: 6vw auto;
-  grid-column: 2/12;
+  grid-column: 2/13;
   grid-row: 3/4;
   grid-column-gap: 2vw;
   grid-row-gap: 1vw;
