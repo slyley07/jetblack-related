@@ -59,6 +59,7 @@ h1,
 h2 {
   font-family: "Quarto";
   font-weight: 900;
+  letter-spacing: 0.02em;
 }
 
 a {
