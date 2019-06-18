@@ -244,6 +244,7 @@ main .third-sect .carousel {
   margin: 0 0 2vw;
   grid-row: 1/2;
   grid-column: 1/13;
+  grid-template-rows: auto 34vw auto;
   grid-row-gap: 3vw;
   align-items: center;
 }
