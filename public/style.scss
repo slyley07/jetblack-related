@@ -212,7 +212,7 @@ main {
     h4 {
       letter-spacing: 0.04em;
       font-size: 4vw;
-      width: 47vw;
+      width: 66vw;
       margin: 0 auto 4vw;
       padding: 0 0 3vw;
       grid-row: 2 / 3;
@@ -465,7 +465,6 @@ footer {
 
       h2,
       h4 {
-        grid-column: 7 / 11;
         width: auto;
         text-align: left;
       }
@@ -693,6 +692,11 @@ footer {
         grid-column: 2 / 7;
       }
 
+      h2,
+      h4 {
+        grid-column: 7 / 11;
+      }
+
       h2 {
         font-size: 3vw;
         margin: 0;
@@ -904,6 +908,11 @@ footer {
 
       .diana {
         grid-column: 1 / 7;
+      }
+
+      h2,
+      h4 {
+        grid-column: 7 / 12;
       }
 
       h2 {
