@@ -781,7 +781,7 @@ main .second-sect h4 {
   }
   main .third-sect .imgs .block {
     margin: 30px 0 100px;
-    grid-column-gap: 20px;
+    grid-column-gap: 40px;
   }
   main .third-sect .imgs .block .block-icon {
     width: 70%;
