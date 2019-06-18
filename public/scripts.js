@@ -6,7 +6,7 @@ let parts = [
   },
   {
     'name': 'Returns',
-    'heading': 'Returns items<span class="unbold">&mdash;</span><br />exactly when you need to.',
+    'heading': 'Return items<span class="unbold">&mdash;</span><br />exactly when you need to.',
     'text': 'Jetblack offers fast and free courier delivery (or shipping to a destination!) so you minimize your carbon footprint. Did something not work out? Simply text us and we&rsquo;ll pick it up&mdash;for free.',
   },
   {
